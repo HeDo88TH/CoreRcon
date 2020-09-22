@@ -17,11 +17,11 @@
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
-    <Version>4.7.0</Version>
+    <Version>4.7.1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <AssemblyVersion>4.7.0.0</AssemblyVersion>
-    <FileVersion>4.7.0.0</FileVersion>
-    <PackageReleaseNotes>Improved unicode support</PackageReleaseNotes>
+    <AssemblyVersion>4.7.1.0</AssemblyVersion>
+    <FileVersion>4.7.1.0</FileVersion>
+    <PackageReleaseNotes>Fixed issue where ConnectAsync would not return</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>logo.png</PackageIcon>
   </PropertyGroup>
