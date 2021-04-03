@@ -75,10 +75,10 @@ namespace CoreRCON
             {
                 return;
             }
-            _tcp = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            _tcp = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
             _tcp.ReceiveTimeout = _timeout;
             _tcp.SendTimeout = _timeout;
-            _tcp.NoDelay = true;
+            //_tcp.NoDelay = true;
             await _tcp.ConnectAsync(_endpoint);
             _connected = true;
             Pipe pipe = new Pipe();
